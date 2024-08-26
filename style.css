@@ -1,0 +1,528 @@
+* 
+{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body {
+    font-family:sans-serif;
+
+}
+.row > * {
+    padding: 0 !important;
+    display:inline-block;
+}
+
+#nav-bar {
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+.navbar {
+    padding:0 !important;
+}
+.navbar-brand img {
+    height:40px;
+    padding-left:20px;
+}
+.navbar-nav li {
+    padding:0 10px;
+}
+.navbar-nav li a {
+    color:black;
+    font-weight:600;
+    float:right;
+    text-align:left;
+
+}
+.fa-bars {
+    color:#fff;
+    font-size:30px !important;
+}
+.navbar-toggler {
+    outline: none !important;
+}
+/* banner section */
+.head-img {
+    background-image:url(images/flat-lay-desk-assortment-with-copy-space.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:500px;
+}
+.head-item {
+    text-align:center;
+    position:relative;
+    top:220px;
+}
+.head-btn {
+    background-color:orangered;
+    width:150px;
+    padding:15px;
+    border:none;
+}
+.head-btn a {
+    text-decoration:none;
+    color:#fff;
+    font-weight:600;
+}
+.head-item h1 {
+    font-size:72px;
+    font-weight:800;
+}
+.head-item h2 {
+    font-size:48px;
+    font-weight:600;
+    color:orangered;
+}
+.work-img {
+    width:100px;
+    height:100px;
+    object-fit:cover;
+    border-radius:50%;
+    padding-top:30px;
+}
+.mywork-item {
+    background-color:white;
+    border-width:1px;
+    border-style:solid;
+    width:260px;
+    margin:0 auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius:10px;
+}
+.mywork-item:hover {
+    box-shadow: 0 14px 18px 0 rgba(196, 9, 9, 0.5), 0 6px 20px 0 rgba(201, 11, 11, 0.5);
+}
+.mywork-item h5 {
+    font-weight:700;
+   
+}
+.work-section {
+    column-gap:5px;
+    width:80%;
+    margin:0 auto;
+    padding-top:100px;
+}
+.work-part {
+    font-weight:600;
+    font-size:60px;
+}
+.work-section-p {
+    font-size:60px;
+}
+.h5-border {
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:gray;
+    opacity:0.5;
+    width:30%;
+    margin:0 auto;
+    padding-top:10px;
+}
+.image-section  {
+    text-align: center;
+}
+.image-main {
+    background-color:ghostwhite;
+    margin-top:150px;
+}
+.image-content {
+    font-weight:900;
+    font-size:60px;
+}
+.image-part li a {
+    text-align:center;
+}
+.image-main p {
+    font-size:60px;
+    text-align:center;
+}
+.pic-main img {
+    width:335px;
+    height:200px;
+    text-align: center;
+}
+.pic-part {
+    width:655px;
+    height:200px;
+    text-align: center;
+}
+.profile.sec {
+    padding-top:100px;
+    margin-top:30px;
+}
+.profile.part  li {
+    margin:30px 0;
+}
+.profile-main  {
+    padding-top:70px;
+    padding-bottom:50px;
+}
+.item-section {
+    padding-top:15px;
+    margin-bottom:30px;
+    padding-bottom:20px;
+}
+.item-part {
+    font-size:10px;
+}
+.photo-img {
+    background-image:url(images/top-view-menstruation-cup.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+    /* height:850px;
+    width:1340px;
+    padding-right:50px; */
+}
+.photo-main {
+    flex:1;
+}
+.photo-main img {
+    width:400px;
+}
+.photo-item {
+    text-align:center;
+    padding-top:200px;
+    color:red;
+    flex:1;
+}
+.photo-item p {
+    padding-top:40px;
+    font-size:20px;
+}
+
+.promo-play {
+    height:60px;
+    width:60px;
+    margin:0 10px;
+    background-color:white;
+}
+.testimonial {
+    margin-bottom:50px;
+    border-width:1px;
+    border-style:solid;
+    background-color:royalblue;
+}
+.testimonial-section {
+    margin-bottom:50px;
+    border-width:1px;
+    border-style:solid;
+    background-color:deepskyblue;
+}
+.testimonial-part {
+    margin-bottom:50px;
+    border-width:1px;
+    border-style:solid;
+    background-color:crimson;
+}
+.user-details {
+    display:inline-block;
+    font-size:12px;
+    padding-top:100px;
+    padding-bottom:100px;
+}
+.footer-box {
+    width:100%;
+
+}
+.footer-main h1 {
+    text-align:center;
+}
+
+
+.footer-part {
+    width:100%;
+    margin:0 auto;
+}
+.footer-item {
+    margin-top:30px;
+}
+.footer-mean {
+    border-style:solid;
+    border-width:1px;
+    margin-top: 30px;
+}
+.footer-ideal {
+    border-style:solid;
+    border-width:1px;
+    margin-top:30px;
+    height:140px;
+}
+.footer-term {
+    width: 40%;
+    margin: 0 auto;
+}
+.copy-main p {
+    text-align:center;
+    padding-top:50px;
+}
+
+
+
+@media(max-width:320px){
+    .head-img h1 {
+        font-size:28px;
+    }
+    .head-item h2 {
+        font-size:24px;
+    }
+    .head-btn {
+        width: 120px;
+        padding: 12px;
+        border: none;
+    }
+    .head-img {
+        height:450px;
+    }
+    .mywork-item {
+        margin-bottom:10px;
+       }
+    .work-part {
+        font-size:45px;
+    }
+    .work-section-p {
+        font-size:45px;
+    }
+    .image-main-p {
+        font-size:45px !important;
+    }
+    .image-content {
+        font-size:45px;
+    }
+    .photo-main img {
+        width: 300px;
+        padding-bottom: 30px;
+    }
+    .photo-item p {
+        color:black;
+    }
+    .photo-item h1 {
+        color:black;
+    }
+    .photo-item h2 {
+        color:black;
+    }
+    .user-details {
+        padding-top: 50px;
+        padding-bottom:50px;
+    }
+    .testimonial {
+        margin-bottom:0 !important;
+    }
+    .testimonial-section{
+        margin-bottom:0 !important;
+    }
+    .testimonial-part{
+        margin-bottom: 0 !important;
+    }
+    .pic-part {
+        width:100%;
+    }
+    .profile-area {
+        line-height:3;
+    }
+    .footer-box {
+        width:100%;
+    }
+    .footer-part {
+        width:100%;
+    }
+    .footer-term {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .navbar-nav {
+        background-color: white;
+        opacity:.7;
+    }
+    .copy-main p {
+        font-size: 14px;
+    }
+    /* iframe {
+        border:0;
+        width:100%;
+         padding-top:70px !important; 
+    } */
+}
+
+@media(max-width:600px){
+    .head-img h1 {
+        font-size:28px;
+    }
+    .head-item h2 {
+        font-size:24px;
+    }
+    .head-btn {
+        width: 120px;
+        padding: 12px;
+        border: none;
+    }
+    .head-img {
+        height:450px;
+    }
+    .mywork-item {
+        margin-bottom:10px;
+       }
+    .work-part {
+        font-size:45px;
+    }
+    .work-section-p {
+        font-size:45px;
+    }
+    .image-main-p {
+        font-size:45px !important;
+    }
+    .image-content {
+        font-size:45px;
+    }
+    .pic-main img {
+        width:100%;
+    }
+    .photo-main img {
+        width: 300px;
+        padding-bottom: 30px;
+    }
+    .photo-item p {
+        color:black;
+    }
+    .photo-item h1 {
+        color:black;
+    }
+    .photo-item h2 {
+        color:black;
+    }
+    .user-details {
+        padding-top: 50px;
+        padding-bottom:50px;
+    }
+    .testimonial {
+        margin-bottom:0 !important;
+    }
+    .testimonial-section{
+        margin-bottom:0 !important;
+    }
+    .testimonial-part{
+        margin-bottom: 0 !important;
+    }
+    .pic-part {
+        width:100%;
+    }
+    .profile-area {
+        line-height:3;
+    }
+    .footer-main{
+        padding-top: 40px;
+        display:flex;
+        flex-direction:column;
+    }
+    .footer-term {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .footer-box {
+        width:100%;
+    }
+    .footer-part {
+        width:100%;
+    }
+    .navbar-nav {
+        background-color: white;
+        opacity:.7;
+    }
+    .copy-main p {
+        font-size: 14px;
+    }
+    iframe {
+        border: 0;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
+@media(max-width:768px){
+    .head-img h1 {
+        font-size:28px;
+    }
+    .head-item h2 {
+        font-size:24px;
+    }
+    .head-btn {
+        width: 120px;
+        padding: 12px;
+        border: none;
+    }
+    .head-img {
+        height:450px;
+    }
+    .mywork-item {
+        margin-bottom:10px;
+       }
+    .work-part {
+        font-size:45px;
+    }
+    .work-section-p {
+        font-size:45px;
+    }
+    .pic-main img {
+        width:100%;
+    }
+    .image-main-p {
+        font-size:45px !important;
+    }
+    .image-content {
+        font-size:45px;
+    }
+    .photo-main img {
+        width: 300px;
+        padding-bottom: 30px;
+    }
+    .photo-item p {
+        color:black;
+    }
+    .photo-item h1 {
+        color:black;
+    }
+    .photo-item h2 {
+        color:black;
+    }
+    .user-details {
+        padding-top: 50px;
+        padding-bottom:50px;
+    }
+    .testimonial {
+        margin-bottom:0 !important;
+    }
+    .testimonial-section{
+        margin-bottom:0 !important;
+    }
+    .testimonial-part{
+        margin-bottom: 0 !important;
+    }
+    .pic-part {
+        width:100%;
+    }
+    .profile-area {
+        line-height:3;
+    }
+    .footer-box {
+        width:100%;
+    }
+    .footer-part {
+        width:100%;
+    }
+    .navbar-nav {
+        background-color: white;
+        opacity:.7;
+    }
+    .copy-main p {
+        font-size: 14px;
+    }
+    .footer-main{
+        padding-top: 40px;
+    }
+    iframe {
+        border: 0;
+        width: 100%;
+        padding-top: 20px;
+    }
+}
